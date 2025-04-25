@@ -16,6 +16,9 @@ namespace AlumnoProfesorLeoCiro
         int telefono;
         public string Nombre{ get { return nombre; } set { nombre = value; } }
         public string Apellido { get { return apellido; } set { apellido = value; } }
-        public string  { get { return nombre; } set { nombre = value; } }
+        public string  Email { get { return email; } set { email = value; } }
+        public int Dni { get { return dni; } set { dni = value; } }
+        public int Telefono { get { return telefono; } set { telefono = value; } }
+        public DateTime FechaNacimiento { get { return fechaNacimiento; } set { fechaNacimiento = value; } }
     }
 }

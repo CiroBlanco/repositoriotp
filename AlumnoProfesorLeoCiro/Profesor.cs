@@ -36,6 +36,8 @@ namespace AlumnoProfesorLeoCiro
             }
             private set { }
         }
+        public string Materia { get { return materia; } set { materia = value; } }
+        public string Titulo { get { return titulo; } set { titulo = value; } }
         public void SetCategoria (Categoria cat)    
         {
             tipo = cat;
