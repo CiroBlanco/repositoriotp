@@ -13,6 +13,12 @@ namespace AlumnoProfesorLeoCiro
         string curso;
         int anio;
         int grupo;
+        public Alumno(string cur, int an, int gru)
+        {
+            curso = cur;
+            anio = an;
+            grupo = gru;
+        }
         public string Curso { get { return curso; } set { curso = value; } }
         public int Anio { get { return anio; } set { anio = value; } }
         public int Grupo { get { return grupo; } set { grupo = value; } }

@@ -17,8 +17,13 @@ namespace AlumnoProfesorLeoCiro
         string materia;
         string titulo;
         Categoria tipo;
-    
-        public string Tipo
+        public Profesor(string mat, string titu, Categoria tip)
+        {
+            materia = mat;
+            titulo = titu;
+            tipo = tip;
+        }
+    public string Tipo
         {
             get
             {
